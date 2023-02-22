@@ -1,0 +1,32 @@
+.hamburger-menu{
+    margin: 5px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.hamburger-menu:hover{
+    cursor: pointer;
+}
+
+.sidebar-container{
+    z-index: 1;
+    height: 100vw;
+    width: 400px;
+    top: 63px;
+    background-color: black;
+    position: fixed;
+    right: 0;
+    /* animation: sidebarMovement 0.5s 1; */
+}
+/* .sidebar-open{
+    
+} */
+
+/* @keyframes sidebarMovement {
+    0%   { width: 0;}
+    100% { width: 400px;}
+} */
+
+.sidebar-button:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,117 @@
+#front-image{
+    background-image: url("./Pictures/HomePageImage.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;                      
+    border-radius: 10px;
+    height:450px;
+    width: 100%;
+}
+
+/* .less-margin {
+    margin: 0 10px 0 10px;
+} */
+.homepage-heading{
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 50px;
+    text-align: center;
+}
+#inner_container{
+    width: 500px;
+    
+}
+.buy-rent-sold{
+    color:white;
+    font-size: 30px;
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.5;
+}
+.buy-rent-sold:hover{
+    color: rgb(18, 141, 80);
+    background-color: white;
+}
+
+.search-color{
+    background-color: rgb(247, 89, 27);
+    border: none;
+    height: 60px;
+}
+.search-color:hover{
+    background-color: rgb(155, 1, 1);
+}
+#search_icon_div{
+    border-top-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 5px;
+}
+.margin-up-100{
+    margin-top: 100px;
+}
+.width-600{
+    width: 600px;
+}
+
+
+
+.small-img-container{
+    border-radius: 10px;
+    position: relative;
+    height: 200px;
+    width: 300px;
+    /* padding: 5px; */
+    margin: 5px;
+    overflow: hidden;
+}
+.big-img-container{
+    border-radius: 10px;
+    position: relative;
+    height: 400px;
+    width: 400px;
+    /* padding: 5px; */
+    margin: 5px;
+    overflow: hidden;
+}
+
+.big-img{
+    height: 100%;
+    width: 100%;
+    background-image: url("./Pictures/HomePageImage.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.small-img{
+    height: 100%;
+    width: 100%;
+    background-image: url("./Pictures/HomePageImage.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.big-img:hover{
+    transform: scale(1.2);
+}
+.small-img:hover{
+    transform: scale(1.2);
+}
+.carousel-item-holder{
+    width: 100%;
+}
+
+.article-link{
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
